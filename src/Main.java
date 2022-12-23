@@ -66,18 +66,15 @@ public class Main {
 
 
         }
-        int c = 2017;
-        int bef = c - 200;
-        int aft = 2054;
+        int current = 2017;
+        int bef = current - 200;
+        int aft = current + 100;
         while (bef < aft) {
             bef = bef + 79;
+            if(bef%79==0)
             System.out.println(bef);
 
         }
-        do {
-            System.out.println(bef / 79);
-        }while (bef<aft);
-
     }
 }
 
